@@ -21,6 +21,7 @@ padding:5px;
 background-color:rgb(39, 126, 31) ;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 position:relative;
+padding-top: 25px;
 }
 .titulo1
 {
@@ -28,9 +29,9 @@ position:relative;
   width:80px;
   height:30px;
   background-color: chocolate;
-  position:relative;
-  top:-29px;
-  
+  position:absolute;
+  top:-24px;
+ right:-3px;
 }
 .p2
 {
@@ -38,6 +39,8 @@ border: 5px solid black;
 padding:5px;
 background-color: darkkhaki;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
+position:relative;
+padding-top: 25px;
 }
 .titulo2
 {
@@ -45,9 +48,9 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
   width:80px;
   height:30px;
   background-color: chocolate;
-  position:relative;
-  top:-29px;
-  
+  position:absolute;
+  top:-24px;
+  right:-3px;
 }
 .p3
 {
@@ -55,16 +58,21 @@ border: 5px solid black;
 padding:5px;
 background-color: darkslateblue;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+position:relative;
+padding-top: 25px;
 }
 .titulo3
 {
   border: 3px solid black;
   width:80px;
-  height:40px;
+  height:30px;
   background-color: chocolate;
-  position:relative;
-  top:-29px;
-  
+  position:absolute;
+  top:-24px;
+  right:-3px;
+}
+.titulo1,.titulo2,.titulo3{
+  text-align: right;
 }
 @media (min-width: 992px)
   {
@@ -121,4 +129,6 @@ margin:18px;
 margin:18px;
   }
 }
+
+
 
